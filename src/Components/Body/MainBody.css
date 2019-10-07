@@ -1,16 +1,44 @@
-.sectionAbout {
-  background: url(./images/background2.jpeg) no-repeat center center;
-  background-size: cover;
-  height: 700px;
-  width: 100%;
-  
+.sections {
+  box-sizing: border-box;
+} 
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
 
+.sectionAbout {
+  background: url(./images/background1.jpeg) no-repeat center center;
+  /* background-size: cover; */
+  height: 800px;
+  width: 100%;
+}
+
+#resName {
+  font-family: Dancing Script;
+  font-size: 130px;
+  word-spacing: 100vw;
+  margin-left: 155px;
+  padding-top: 100px;
 }
 
 .sectionMenu {
-  background: url(./images/background3.jpg) no-repeat center center;
-  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.836);
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
   height: 700px;
-  width: 100%;
+  width: 1000px;
 }
+
+.sectionContact {
+  background-color: rgba(255, 255, 255, 0.836);
+  color: black;
+  display: block;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+  width: 1000px;
+}
+
 
