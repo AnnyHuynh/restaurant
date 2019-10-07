@@ -6,8 +6,8 @@ import Section2 from "./Components/Section2"
 class App extends Component{
   render(){
   return(
-    <div>
-      <Section1 Home = "About" Menu = "Menu" Contact = "Contact Us"/>
+    <div className="App">
+      <Section1 />
       <Section2 />
 
     </div>
