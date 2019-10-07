@@ -1,14 +1,14 @@
 import React, {Component} from "react"
 import "./App.css"
-import Section1 from "./Components/Section1"
-import Section2 from "./Components/Section2"
+import HeadBar from "./Components/Head/HeadBar"
+import MainBody from "./Components/MainBody"
 
 class App extends Component{
   render(){
   return(
     <div className="App">
-      <Section1 />
-      <Section2 />
+      <HeadBar/>
+      <MainBody />
 
     </div>
   )

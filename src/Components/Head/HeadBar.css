@@ -6,6 +6,7 @@ header{
   left: 0;
   width: 100%;
   height: 80px;
+  box-sizing: border-box;
 } 
 
 .logo a {
@@ -14,9 +15,26 @@ header{
   padding: 0 1.5rem;
   font-size: 2rem;
 }
-
+.space{
+  flex: 1;
+}
 .navigationBar{
   display: flex;
   align-items: center;
   height: 100%;
 }
+.navList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navList li {
+  padding: 20px;
+}
+.navList a {
+  color: white;
+  text-decoration: none;
+
+}
+

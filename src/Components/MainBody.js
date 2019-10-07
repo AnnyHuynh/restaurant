@@ -1,6 +1,6 @@
 import React from "react"
 
-function Section2 (){
+function MainBody (){
   return (
     <div>
       <h1> Restaurant images will be displayed here!</h1>
@@ -10,4 +10,4 @@ function Section2 (){
 
 }
 
-export default Section2;
+export default MainBody;
