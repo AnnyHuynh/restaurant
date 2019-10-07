@@ -1,7 +1,7 @@
 header{
   width: 100%;
   position: sticky;
-  background-color: rgba(0, 0, 0, 0.829);
+  background-color: rgba(39, 31, 31, 0.979);
   top: 0;
   left: 0;
   width: 100%;
@@ -35,6 +35,9 @@ header{
 .navList a {
   color: white;
   text-decoration: none;
-
 }
+.navList li :hover{
+  color: orange;
+}
+
 

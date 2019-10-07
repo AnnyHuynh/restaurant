@@ -1,0 +1,16 @@
+.sectionAbout {
+  background: url(./images/background2.jpeg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+  
+
+}
+
+.sectionMenu {
+  background: url(./images/background3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+
