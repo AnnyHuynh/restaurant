@@ -1,0 +1,19 @@
+nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  background-color: rgba(12, 12, 12, 0.144);
+  font-weight: bolder;
+  font-size: 30px;
+  position: sticky;
+} 
+
+nav li {
+  display: inline;
+  text-align: right;
+  padding: 20px;
+  position: relative;
+  left: 220px;
+  
+  
+}
