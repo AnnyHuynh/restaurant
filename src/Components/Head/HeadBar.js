@@ -9,13 +9,14 @@ class HeadBar extends Component{
       <header className="mainHead">
         <div className="navigationBar">
           <div className="hamburgerBar"></div>
-          <div className="logo"><a href="/">Logo</a></div>
+          <div className="logo"><a href="/">Beyond The Bowl</a></div>
           <div className="space" />
           <div className="navList">
             <ul>
               <li><a href="/">Home</a></li>
-              <li><a href="/">Menu</a></li>
-              <li><a href="/">Contact Us</a></li>
+              <li><a href="/Menu">Menu</a></li>
+              <li><a href="/About">About</a></li>
+              <li><a href="/Contact">Contact Us</a></li>
             </ul>
           </div>
         </div>

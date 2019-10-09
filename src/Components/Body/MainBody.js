@@ -1,28 +1,26 @@
-import React from "react"
+import React, {Component} from "react"
 import "./MainBody.css"
+import About from "./About"
+import Menu from "./Menu"
+import Contact from "./Contact"
+import Bio from "./Bio"
 
-function MainBody (){
-  return (
-      <div className="main">
-        <div className="sections">
-          <section className="sectionAbout">
-            <h1 id="resName">
-              Beyond The Bowl
-            </h1>
-
-          </section>
-          <section className="sectionMenu">
-
-          </section>
-          <section className="sectionContact">
-
-          </section>
+class MainBody extends Component{
+  render(){
+    return (
+        <div className="main">
+          <div className="sections">
+            <About/>
+            <Menu />
+            <Bio />
+            <Contact />
+          </div>
+  
         </div>
-
-      </div>
-    
-  )
-
-}
+      
+    )
+  
+  }
+} 
 
 export default MainBody;
